@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Suite_FTRPoker">
+              <span class="suite-name border-passed">Automation Suite FTRPoker</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Suite_FTRPoker">
+                    <span>D:\RestAPIWorkSpace\testAutomationTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Suite_FTRPoker">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Suite_FTRPoker">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Suite_FTRPoker">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Suite_FTRPoker">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Suite_FTRPoker">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Suite_FTRPoker">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Suite_FTRPoker" class="hide-methods passed suite-Automation_Suite_FTRPoker"> (hide)</a> <!-- hide-methods passed suite-Automation_Suite_FTRPoker -->
+                      <a href="#" panel-name="suite-Automation_Suite_FTRPoker" class="show-methods passed suite-Automation_Suite_FTRPoker"> (show)</a> <!-- show-methods passed suite-Automation_Suite_FTRPoker -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Suite_FTRPoker">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Suite_FTRPoker" title="com.testAutomationTest.QA.testCases.LoginTest" hash-for-method="LoginPageTitleCheck">LoginPageTitleCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Suite_FTRPoker" title="com.testAutomationTest.QA.testCases.LoginTest" hash-for-method="LoginPageUserLogin">LoginPageUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Suite_FTRPoker" title="com.testAutomationTest.QA.testCases.MyProfileTest" hash-for-method="VerifyMyProfileTitle">VerifyMyProfileTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Suite_FTRPoker" title="com.testAutomationTest.QA.testCases.BalanceTest" hash-for-method="checkUserNameonBalance">checkUserNameonBalance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Suite_FTRPoker" title="com.testAutomationTest.QA.testCases.BalanceTest" hash-for-method="checkforCorrectUsername">checkforCorrectUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Suite_FTRPoker" title="com.testAutomationTest.QA.testCases.BalanceTest" hash-for-method="verifyAvailableAmount">verifyAvailableAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Suite_FTRPoker -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Suite_FTRPoker" class="panel Automation_Suite_FTRPoker">
+          <div class="suite-Automation_Suite_FTRPoker-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testAutomationTest.QA.testCases.MyProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMyProfileTitle">
+                  </a> <!-- VerifyMyProfileTitle -->
+                  <span class="method-name">VerifyMyProfileTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite_FTRPoker-class-passed -->
+          <div class="suite-Automation_Suite_FTRPoker-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testAutomationTest.QA.testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTitleCheck">
+                  </a> <!-- LoginPageTitleCheck -->
+                  <span class="method-name">LoginPageTitleCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageUserLogin">
+                  </a> <!-- LoginPageUserLogin -->
+                  <span class="method-name">LoginPageUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite_FTRPoker-class-passed -->
+          <div class="suite-Automation_Suite_FTRPoker-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testAutomationTest.QA.testCases.BalanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUserNameonBalance">
+                  </a> <!-- checkUserNameonBalance -->
+                  <span class="method-name">checkUserNameonBalance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkforCorrectUsername">
+                  </a> <!-- checkforCorrectUsername -->
+                  <span class="method-name">checkforCorrectUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailableAmount">
+                  </a> <!-- verifyAvailableAmount -->
+                  <span class="method-name">verifyAvailableAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite_FTRPoker-class-passed -->
+        </div> <!-- panel Automation_Suite_FTRPoker -->
+        <div panel-name="test-xml-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\RestAPIWorkSpace\testAutomationTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Automation Suite FTRPoker&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testAutomationTest.QA.testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.testAutomationTest.QA.testCases.BalanceTest&quot;/&gt;
+      &lt;class name=&quot;com.testAutomationTest.QA.testCases.MyProfileTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Suite --&gt;
+&lt;/suite&gt; &lt;!-- Automation Suite FTRPoker --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Suite FTRPoker</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Suite (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Suite FTRPoker</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Suite FTRPoker</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Suite_FTRPoker');
+function tableData_Automation_Suite_FTRPoker() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginPageUserLogin')
+data.setCell(0, 2, 'com.testAutomationTest.QA.testCases.LoginTest')
+data.setCell(0, 3, 4921);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkUserNameonBalance')
+data.setCell(1, 2, 'com.testAutomationTest.QA.testCases.BalanceTest')
+data.setCell(1, 3, 2422);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAvailableAmount')
+data.setCell(2, 2, 'com.testAutomationTest.QA.testCases.BalanceTest')
+data.setCell(2, 3, 1672);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkforCorrectUsername')
+data.setCell(3, 2, 'com.testAutomationTest.QA.testCases.BalanceTest')
+data.setCell(3, 3, 1520);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginPageTitleCheck')
+data.setCell(4, 2, 'com.testAutomationTest.QA.testCases.LoginTest')
+data.setCell(4, 3, 63);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyMyProfileTitle')
+data.setCell(5, 2, 'com.testAutomationTest.QA.testCases.MyProfileTest')
+data.setCell(5, 3, 18);
+window.suiteTableData['Automation_Suite_FTRPoker']= { tableData: data, tableDiv: 'times-div-Automation_Suite_FTRPoker'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Automation_Suite_FTRPoker">
+              </div> <!-- times-div-Automation_Suite_FTRPoker -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Suite FTRPoker</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Suite_FTRPoker" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testAutomationTest.QA.testCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTitleCheck</span>
+                <span class="method-start">27744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageUserLogin</span>
+                <span class="method-start">36831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41762 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testAutomationTest.QA.testCases.BalanceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkUserNameonBalance</span>
+                <span class="method-start">50143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkforCorrectUsername</span>
+                <span class="method-start">62170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">64437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailableAmount</span>
+                <span class="method-start">72722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74397 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testAutomationTest.QA.testCases.MyProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">75085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyMyProfileTitle</span>
+                <span class="method-start">83820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83841 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
