@@ -43,7 +43,7 @@ public class BalanceTest extends TestBase{
 	@Test(priority =3)
 	public void verifyAvailableAmount()
 	{
-		Assert.assertTrue(bal.getAvailableAmount().contains("0.00"));
+		Assert.assertTrue(bal.getAvailableAmount().contains("0.10"));
 	}
 	
 	@AfterMethod

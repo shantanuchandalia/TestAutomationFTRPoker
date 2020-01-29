@@ -12,6 +12,7 @@ import com.testAutomationTest.QA.base.TestBase;
 
 public class WebEventListener extends TestBase implements WebDriverEventListener{
 
+	
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");
 	}
