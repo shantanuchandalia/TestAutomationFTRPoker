@@ -1,89 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Suite FTRPoker" duration-ms="84621" started-at="2020-01-28T12:38:56 IST" finished-at="2020-01-28T12:40:20 IST">
+  <suite name="Automation Suite FTRPoker" duration-ms="20608" started-at="2020-01-28T18:12:23 IST" finished-at="2020-01-28T18:12:44 IST">
     <groups>
     </groups>
-    <test name="Regression Suite" duration-ms="84621" started-at="2020-01-28T12:38:56 IST" finished-at="2020-01-28T12:40:20 IST">
-      <class name="com.testAutomationTest.QA.testCases.BalanceTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="setup" is-config="true" duration-ms="7650" started-at="2020-01-28T12:39:38 IST" finished-at="2020-01-28T12:39:46 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkUserNameonBalance()[pri:1, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="checkUserNameonBalance" duration-ms="2422" started-at="2020-01-28T12:39:46 IST" finished-at="2020-01-28T12:39:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkUserNameonBalance -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="tearDown" is-config="true" duration-ms="961" started-at="2020-01-28T12:39:48 IST" finished-at="2020-01-28T12:39:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="setup" is-config="true" duration-ms="8641" started-at="2020-01-28T12:39:49 IST" finished-at="2020-01-28T12:39:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkforCorrectUsername()[pri:2, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="checkforCorrectUsername" duration-ms="1520" started-at="2020-01-28T12:39:58 IST" finished-at="2020-01-28T12:40:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkforCorrectUsername -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="tearDown" is-config="true" duration-ms="744" started-at="2020-01-28T12:40:00 IST" finished-at="2020-01-28T12:40:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="setup" is-config="true" duration-ms="8285" started-at="2020-01-28T12:40:00 IST" finished-at="2020-01-28T12:40:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAvailableAmount()[pri:3, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="verifyAvailableAmount" duration-ms="1672" started-at="2020-01-28T12:40:09 IST" finished-at="2020-01-28T12:40:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAvailableAmount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.BalanceTest@6895a785]" name="tearDown" is-config="true" duration-ms="688" started-at="2020-01-28T12:40:10 IST" finished-at="2020-01-28T12:40:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testAutomationTest.QA.testCases.BalanceTest -->
-      <class name="com.testAutomationTest.QA.testCases.MyProfileTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.MyProfileTest@184f6be2]" name="setup" is-config="true" duration-ms="8735" started-at="2020-01-28T12:40:11 IST" finished-at="2020-01-28T12:40:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyMyProfileTitle()[pri:0, instance:com.testAutomationTest.QA.testCases.MyProfileTest@184f6be2]" name="VerifyMyProfileTitle" duration-ms="18" started-at="2020-01-28T12:40:20 IST" finished-at="2020-01-28T12:40:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyMyProfileTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.MyProfileTest@184f6be2]" name="tearDown" is-config="true" duration-ms="702" started-at="2020-01-28T12:40:20 IST" finished-at="2020-01-28T12:40:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testAutomationTest.QA.testCases.MyProfileTest -->
+    <test name="Sanity Suite" duration-ms="20608" started-at="2020-01-28T18:12:23 IST" finished-at="2020-01-28T18:12:44 IST">
       <class name="com.testAutomationTest.QA.testCases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@48503868]" name="setup" is-config="true" duration-ms="27744" started-at="2020-01-28T12:38:56 IST" finished-at="2020-01-28T12:39:24 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@64729b1e]" name="setup" is-config="true" duration-ms="10878" started-at="2020-01-28T18:12:23 IST" finished-at="2020-01-28T18:12:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleCheck()[pri:1, instance:com.testAutomationTest.QA.testCases.LoginTest@48503868]" name="LoginPageTitleCheck" duration-ms="63" started-at="2020-01-28T12:39:24 IST" finished-at="2020-01-28T12:39:24 IST">
+        <test-method status="PASS" signature="LoginPageTitleCheck()[pri:1, instance:com.testAutomationTest.QA.testCases.LoginTest@64729b1e]" name="LoginPageTitleCheck" duration-ms="58" started-at="2020-01-28T18:12:34 IST" finished-at="2020-01-28T18:12:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleCheck -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@48503868]" name="tearDown" is-config="true" duration-ms="1124" started-at="2020-01-28T12:39:24 IST" finished-at="2020-01-28T12:39:25 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@64729b1e]" name="tearDown" is-config="true" duration-ms="652" started-at="2020-01-28T18:12:34 IST" finished-at="2020-01-28T18:12:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@48503868]" name="setup" is-config="true" duration-ms="7882" started-at="2020-01-28T12:39:25 IST" finished-at="2020-01-28T12:39:33 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@64729b1e]" name="setup" is-config="true" duration-ms="7929" started-at="2020-01-28T18:12:35 IST" finished-at="2020-01-28T18:12:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageUserLogin()[pri:2, instance:com.testAutomationTest.QA.testCases.LoginTest@48503868]" name="LoginPageUserLogin" duration-ms="4921" started-at="2020-01-28T12:39:33 IST" finished-at="2020-01-28T12:39:38 IST">
+        <test-method status="PASS" signature="LoginPageUserLogin()[pri:2, instance:com.testAutomationTest.QA.testCases.LoginTest@64729b1e]" name="LoginPageUserLogin" duration-ms="361" started-at="2020-01-28T18:12:43 IST" finished-at="2020-01-28T18:12:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageUserLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@48503868]" name="tearDown" is-config="true" duration-ms="731" started-at="2020-01-28T12:39:38 IST" finished-at="2020-01-28T12:39:38 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testAutomationTest.QA.testCases.LoginTest@64729b1e]" name="tearDown" is-config="true" duration-ms="634" started-at="2020-01-28T18:12:43 IST" finished-at="2020-01-28T18:12:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testAutomationTest.QA.testCases.LoginTest -->
-    </test> <!-- Regression Suite -->
+    </test> <!-- Sanity Suite -->
   </suite> <!-- Automation Suite FTRPoker -->
 </testng-results>
