@@ -40,9 +40,10 @@ public class TestBase {
 	public static void initialization()
 	{
 		String browserName = prop.getProperty("browser");
+		String chromePath = "C:\\Users\\shantanu\\eclipse-workspace\\TestAutomationFTRPoker\\src\\main\\java\\com\\testAutomationTest\\QA\\config\\chromedriver.exe";
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\DELL\\Downloads\\chromedriver_win32_79\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver", chromePath );
 			driver = new ChromeDriver();
 		}
 		
@@ -50,16 +51,11 @@ public class TestBase {
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver=e_driver;
-		
-		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		
 		driver.get(prop.getProperty("url"));
-		
-		
-		
+
 	}
 }
